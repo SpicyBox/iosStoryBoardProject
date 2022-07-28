@@ -13,6 +13,7 @@
 		FBF7E14B288FC50F000C52DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF7E149288FC50F000C52DE /* Main.storyboard */; };
 		FBF7E14D288FC510000C52DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF7E14C288FC510000C52DE /* Assets.xcassets */; };
 		FBF7E150288FC510000C52DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF7E14E288FC510000C52DE /* LaunchScreen.storyboard */; };
+		FBF7E15828922798000C52DE /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7E15728922798000C52DE /* WeatherInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FBF7E14C288FC510000C52DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF7E14F288FC510000C52DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBF7E151288FC510000C52DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF7E15728922798000C52DE /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FBF7E14C288FC510000C52DE /* Assets.xcassets */,
 				FBF7E14E288FC510000C52DE /* LaunchScreen.storyboard */,
 				FBF7E151288FC510000C52DE /* Info.plist */,
+				FBF7E15728922798000C52DE /* WeatherInformation.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF7E148288FC50F000C52DE /* ViewController.swift in Sources */,
+				FBF7E15828922798000C52DE /* WeatherInformation.swift in Sources */,
 				FBF7E144288FC50F000C52DE /* AppDelegate.swift in Sources */,
 				FBF7E146288FC50F000C52DE /* SceneDelegate.swift in Sources */,
 			);
