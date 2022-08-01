@@ -11,7 +11,6 @@
         <!--Navigation Controller-->
         <scene sceneID="3mJ-Xg-EEo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IIP-kY-nGc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="S3I-DE-pI7" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uU2-Xk-CIX">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -21,6 +20,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="HUx-TN-XIx"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IIP-kY-nGc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-846" y="66"/>
         </scene>
@@ -34,7 +34,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="tpP-Pb-Vlb"/>
+                    <navigationItem key="navigationItem" id="tpP-Pb-Vlb">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="ymp-UR-Vsp"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
